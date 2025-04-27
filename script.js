@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Typewriter effect for the introduction text
-const text = "Full Stack Web and App Developer | Data Analyst | Cloud Practitioner";
+const text = "Full Stack Web and App Developer ";
 let i = 0;
 
 const typeWriter = () => {

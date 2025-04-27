@@ -2,7 +2,7 @@
 
 <div align="center">
   <h2>
-    <a href="https://github.com/k-malleswarreddy/portfolio" target="_blank" rel="noopener noreferrer">
+    <a href="[https://github.com/k-malleswarreddy/portfolio](https://k-malleswarreddy.github.io/portfolio/)" target="_blank" rel="noopener noreferrer">
   🔗 LIVE DEMO
 </a>
 

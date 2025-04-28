@@ -8,7 +8,7 @@
 
   </h2>
 
-  <img src="Preview.png" alt="Portfolio Preview" width="400px" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);" />
+  <img src="Preview_img.png" alt="Portfolio Preview" width="400px" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);" />
 </div>
 
 ## 📋 Overview

@@ -8,7 +8,7 @@
 
   </h2>
 
-  <img src="Preview_img.png" alt="Portfolio Preview" width="400px" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);" />
+  <img src="preview_img.png" alt="Portfolio Preview" width="400px" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);" />
 </div>
 
 ## 📋 Overview
@@ -44,7 +44,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## 📱 Responsive Features
 
-- Mobile-first design
+- Mobile-first design 
 - Hamburger menu on small screens
 - Smooth layout transitions
 - Optimized images and typography

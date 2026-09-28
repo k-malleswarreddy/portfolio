@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail, ChevronDown } from 'lucide-react';
 import { personalInfo } from '../../data/portfolioData';
 import { GithubIcon, LinkedinIcon } from '../ui/BrandIcons';
+import { downloadResume } from '../../utils/downloadResume';
 
 const codeLines = [
   { t: '@RestController', c: 'text-amber-300' },
@@ -102,7 +103,8 @@ export default function Hero() {
             </a>
             <a
               href={personalInfo.resume}
-              download
+              download="K_Malleswar_Reddy_Resume.pdf"
+              onClick={downloadResume}
               className="glass inline-flex items-center gap-2 rounded-xl px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:border-cyan-400/50"
             >
               <Download className="h-4 w-4" />

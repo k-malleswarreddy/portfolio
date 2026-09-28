@@ -3,6 +3,7 @@ import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Menu, X, Download } from 'lucide-react';
 import { navLinks, personalInfo } from '../../data/portfolioData';
 import BrandLogo from '../ui/BrandLogo';
+import { downloadResume } from '../../utils/downloadResume';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -61,7 +62,8 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <a
             href={personalInfo.resume}
-            download
+            download="K_Malleswar_Reddy_Resume.pdf"
+            onClick={downloadResume}
             className="hidden items-center gap-2 rounded-lg bg-gradient-to-r from-cyan-500 to-indigo-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 transition hover:shadow-cyan-500/40 sm:inline-flex"
           >
             <Download className="h-4 w-4" />
@@ -103,7 +105,11 @@ export default function Navbar() {
               <li>
                 <a
                   href={personalInfo.resume}
-                  download
+                  download="K_Malleswar_Reddy_Resume.pdf"
+                  onClick={(e) => {
+                    setOpen(false);
+                    downloadResume(e);
+                  }}
                   className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-cyan-500 to-indigo-500 px-4 py-3 text-sm font-semibold text-white"
                 >
                   <Download className="h-4 w-4" />

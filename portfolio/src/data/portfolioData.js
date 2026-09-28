@@ -9,7 +9,7 @@ export const personalInfo = {
   location: 'Hyderabad, India',
   linkedin: 'https://www.linkedin.com/in/malleswar-reddy-kalvapalli-014ba12a8',
   github: 'https://github.com/k-malleswarreddy',
-  resume: '/resume.pdf'
+  resume: `${import.meta.env.BASE_URL}resume.pdf`
 };
 
 export const navLinks = [
